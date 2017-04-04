@@ -1,40 +1,18 @@
-<header>
-  <div id="content" style="padding: 10px 0 0 0;">
-    <h1 class="logo"></h1>
-  </div>
-</header>
- 
-<nav id="menu" class="navigation">
-  <div id="content">
-    <ul>
-      <li class="active" >
-        <a href="me">Siignal</a>
-      </li>
-      <li>
-        <a href="community">Communaut&eacute;</a>
-      </li>
-      <li>
-        <a href="shop">Boutique</a>
-      </li>
-      <li>
-        <a href="admin/"  target="_blank">Administration</a>
-      </li>
-    </ul>
-  </div>
-</nav>  
-
-<div id="content_sub">
-  <div id="subnav" class="navigation">
-    <ul>
-      <li>
-        <a class="active" href="me">Siignal</a>
-      </li>
-      <li>
-          <a  href="home">Home</a> 
-      </li>
-      <li>
-        <a href="parametre">Paramètres</a>
-      </li>
-    </ul>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="author" content="Siignal" />
+        <title>Habboo: Siignal</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <!-- StyleSheets -->
+        <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/global.css">
+    </head>
+    <body>
+    <?php require('subheader.php'); ?>
+    </body>
+<!-- JavaScript -->
+</html>

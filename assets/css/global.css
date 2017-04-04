@@ -13,6 +13,7 @@ header{
     position: relative;
     background-position: 0;
     background-repeat: no-repeat;
+    overflow:hidden;
 }
 
 
@@ -20,9 +21,20 @@ header h1.logo{
   height: 78px;
   float: left;
   width: 145px;
+  margin-top:-13rem;
   background-image: url(../img/logo.png);
-  padding: 0;
-  margin: 18px 0 0 -10px;
+  position:relative;
+  z-index:2;
+}
+
+.hotel{
+  background-image: url(../img/hotel.png);
+  background-repeat: no-repeat;
+  height: 14rem;
+  width: 47rem;
+  margin-left: -22rem;
+  position: relative;
+  z-index: 2;
 }
 
 nav#menu{
