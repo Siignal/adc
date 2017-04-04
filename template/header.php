@@ -13,6 +13,3 @@
     </head>
     <body>
     <?php require('subheader.php'); ?>
-    </body>
-<!-- JavaScript -->
-</html>

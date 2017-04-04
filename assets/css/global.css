@@ -32,7 +32,7 @@ header h1.logo{
   background-repeat: no-repeat;
   height: 14rem;
   width: 47rem;
-  opacity:0.5;
+  opacity: 0.5;
   margin-left: -22rem;
   position: relative;
   z-index: 2;
@@ -160,4 +160,17 @@ body{
 #content_sub{
   width: 900px;
   margin: auto;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    clear: both;
+    display: block;
+    padding: 12px 0;
+    position: absolute;
+    bottom: 0;
+    color: #FFFFFF;
+    background-color: #292b2c;
+    background-repeat: repeat-x;
 }
