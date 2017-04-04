@@ -142,6 +142,20 @@ body{
   position: relative;
 }
 
+#left{
+  width: 650px;
+  margin: auto;
+  position: relative;
+  float: left;
+}
+
+#right{
+  width: 250px;
+  margin: auto;
+  position: relative;
+  float: right;
+}
+
 #content_sub{
   width: 900px;
   margin: auto;
