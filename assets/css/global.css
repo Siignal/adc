@@ -1,0 +1,136 @@
+@font-face {font-family: 'Avenir LT Std 95 Black';font-style: normal;font-weight: normal;src: local('Avenir LT Std 95 Black'), url('../font/AvenirLTStd-Black.woff') format('woff');}
+@font-face {font-family: 'Avenir LT Std 45 Book';font-style: normal;font-weight: normal;src: local('Avenir LT Std 45 Book'), url('../font/AvenirLTStd-Book.woff') format('woff');}
+@font-face {font-family: 'Avenir LT Std 85 Heavy';font-style: normal;font-weight: normal;src: local('Avenir LT Std 85 Heavy'), url('../font/AvenirLTStd-Heavy.woff') format('woff');}
+@font-face {font-family: 'Avenir LT Std 35 Light';font-style: normal;font-weight: normal;src: local('Avenir LT Std 35 Light'), url('../font/AvenirLTStd-Light.woff') format('woff');}
+@font-face {font-family: 'Avenir LT Std 65 Medium';font-style: normal;font-weight: normal;src: local('Avenir LT Std 65 Medium'), url('../font/AvenirLTStd-Medium.woff') format('woff');}
+@font-face {font-family: 'Avenir LT Std 55 Roman';font-style: normal;font-weight: normal;src: local('Avenir LT Std 55 Roman'), url('../font/AvenirLTStd-Roman.woff') format('woff');}
+@font-face {font-family: 'Avenir LT Std 95 Black Oblique';font-style: normal;font-weight: normal;src: local('Avenir LT Std 95 Black Oblique'), url('../font/AvenirLTStd-BlackOblique.woff') format('woff');}@font-face {font-family: 'Avenir LT Std 45 Book Oblique';font-style: normal;font-weight: normal;src: local('Avenir LT Std 45 Book Oblique'), url('AvenirLTStd-BookOblique.woff') format('woff');}@font-face {font-family: 'Avenir LT Std 85 Heavy Oblique';font-style: normal;font-weight: normal;src: local('Avenir LT Std 85 Heavy Oblique'), url('AvenirLTStd-HeavyOblique.woff') format('woff');}@font-face {font-family: 'Avenir LT Std 35 Light Oblique';font-style: normal;font-weight: normal;src: local('Avenir LT Std 35 Light Oblique'), url('AvenirLTStd-LightOblique.woff') format('woff');}@font-face {font-family: 'Avenir LT Std 65 Medium Oblique';font-style: normal;font-weight: normal;src: local('Avenir LT Std 65 Medium Oblique'), url('AvenirLTStd-MediumOblique.woff') format('woff');}@font-face {font-family: 'Avenir LT Std 55 Oblique';font-style: normal;font-weight: normal;src: local('Avenir LT Std 55 Oblique'), url('AvenirLTStd-Oblique.woff') format('woff');}
+
+
+header{
+    height: 135px;
+    background-color: #67BEE9;
+    position: relative;
+    background-position: 0;
+    background-repeat: no-repeat;
+}
+
+
+header h1.logo{
+  height: 78px;
+  float: left;
+  width: 145px;
+  background-image: url(../img/logo.png);
+  padding: 0;
+  margin: 18px 0 0 -10px;
+}
+
+nav#menu{
+  background-color: #fff;
+  height: 55px;
+  font-family:'Avenir LT Std 85 Heavy';
+  clear: both;
+  position: relative;
+}
+
+nav#menu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav#menu ul li{
+  display: inline-block;
+  height: 55px;
+  padding: 0 20px 0 20px;
+  float: left;
+}
+
+nav#menu ul li a{
+  color: #292b2c;
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 55px;
+  font-weight: 400;
+}
+
+nav#menu ul li.active a{
+  color: #fff;
+}
+
+nav#menu ul li.active{
+  background-color: #292b2c;
+}
+
+nav#menu ul li.me{
+  height: 55px;
+    background-position: 8px -14px;
+}
+
+#subnav{
+  font-family:'Avenir LT Std 85 Heavy';
+  background-color: #292b2c;
+  height: 30px;
+  border-radius:0 0 5px 5px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
+}
+
+#subnav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#subnav ul li{
+  padding: 0 20px 0 20px;
+  display: inline-block;
+  float: left;
+}
+
+.clear{
+  clear: both;
+}
+
+#subnav ul li a{
+  color: #949595;
+  line-height: 30px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+#subnav ul li a.active{
+  color: #fff;
+}
+
+#subnav ul li:after{
+    content: '|';
+    padding-left: 40px;
+    color: #444;
+    font-size: 12px;
+}
+
+#subnav ul li:after:last-child{
+  content: '';
+}
+
+.clear{
+  clear: both;
+}
+
+body{
+  background-color:#E6E7E7;
+  background-repeat: repeat;
+  padding: 0;
+  margin: 0;
+}
+
+#content{
+  width: 900px;
+  margin: auto;
+  position: relative;
+}
+
+#content_sub{
+  width: 900px;
+  margin: auto;
+}
