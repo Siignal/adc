@@ -196,6 +196,93 @@ body{
   padding: 5px 39px 5px 12px;
 }
 
+.user--login{
+  padding: 0 12px;
+  position: absolute;
+  margin-top: -11rem;
+  width: 21%;
+  z-index: 201;
+  right: 2rem;
+}
+
+/** MODAL **/
+#connexion{
+    display: none;
+    position: fixed;
+    top:0; right:0; bottom:0; left:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+#connexion:target{
+    display: block;
+}
+.popup_block{
+    background: #fff;
+    padding: 20px;
+    position: relative;
+    margin: 10% auto;
+    width: 30%;
+    box-shadow: 0px 0px 20px #000;
+}
+img.btn_close {
+    float: right;
+    margin: -55px -55px 0 0;
+}
+.form--popup{
+  margin-left: 32%;
+}
+.connexion--btn{
+  margin-left: 32%;
+}
+.connexion--go{
+    color: white;
+    background-color: green;
+    border: none;
+    margin-top: 1rem;
+    width: 48%;
+    height: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,.3);
+}
+.popup__login{
+    padding: 3px;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    border-style: none;
+    border: 3px solid #d0d0d0;
+}
+.mdp--oublie{
+    margin-left: 46%;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+.popup__login:focus{
+  border:3px solid #5d5d5d;
+  border-color:transparent;
+}
+/** **/
+
+.login--wrapper{
+  background: #02353c;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 1px 0 2px rgba(0,0,0,.3);
+  border: 2px solid #267b91;
+  border-radius: 3px;
+  padding: 5px 39px 5px 12px;
+}
+
+.login{
+  padding: 3px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+}
+
 .user--name{
   position: relative;
   padding-left: 24px;
@@ -250,9 +337,36 @@ body{
   box-shadow: 3px 3px rgba(0,0,0,.3);
 }
 
+#mini--room{
+  height: 7rem;
+  width: 7rem;
+  margin-top: 7rem;
+  box-shadow: 3px 3px rgba(0,0,0,.3);
+}
+
+.room--proprio{
+  height:50px;
+  width:50px;
+  margin-top: 1rem;
+  border: 1px solid #444;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.proprio--name{
+  margin-top: -2.3rem;
+  margin-left: 4rem;
+}
+
 #mini--infos{
   margin-left: 9rem;
   width: 11rem;
+  height: 8rem;
+}
+
+#mini--infos--total{
+  margin-left: 9rem;
+  width: 506px;
   height: 8rem;
 }
 
@@ -292,6 +406,43 @@ body{
 
 .news__summary{
   font-size: 14px;
+}
+
+#header__article{
+  margin-top: 2rem;
+  margin-bottom: -1rem;
+}
+
+.article--tags__btn{
+    font-size: 14px;
+    background-color: #292b2c;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    line-height: 2rem;
+}
+
+.article--tags__btn:hover{
+  background-color: #444;
+}
+.mini--article__go-l{
+  float: left;
+  text-transform: uppercase;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+.mini--article__go-r{
+  float: right;
+  text-transform: uppercase;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 2rem;
 }
 
 #habbo--profile{

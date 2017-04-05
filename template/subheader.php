@@ -2,12 +2,25 @@
             <div id="content">
             <div class="hotel"></div>
             <h1 class="logo"></h1>
-            <div class='user--menu'>
+            <!--<div class='user--menu'>
                 <div class='user--wrapper'>
                     <div class='user--name'>Siignal</div>
                 </div>
                 <div class='user--habbo'>
                     <img class='user--avatar' src='https://www.habbo.fr/habbo-imaging/avatar/hr-889-34.hd-180-14.ch-3030-73.lg-3023-88.sh-300-64%2Cs-2.g-1.d-2.h-2.a-0%2C9c614eaf9d68b90697515526c73197ce.png'>
+                </div>
+            </div>-->
+            <a href="#connexion">
+            <div class='user--login'>
+                <div class='login--wrapper'>
+                    <div class='login'><i class="fa fa-key" aria-hidden="true"></i> Se connecter</div>
+                </div>
+            </div>
+            </a>
+            <div id="connexion">
+                <div class="popup_block">
+                    <a class="close" href="#"><img alt="Fermer" title="Fermer la fenêtre" class="btn_close" src="./images/close_pop.png"></a>
+                    <h2 style="text-align: center;">Se connecter</h2>
                 </div>
             </div>
         </div>
@@ -70,16 +83,16 @@
                         <a <?php if($pageid == '7') echo'class="active"' ?> href="<?= $url; ?>habboo">Qu'est-ce qu'Habboo?</a>
                     </li>
                     <li>
-                        <a <?php if($pageid == '8') echo'class="active"' ?> href="<?= $url; ?>habboo/how-to-play">Comment jouer</a> 
+                        <a <?php if($pageid == '8') echo'class="active"' ?> href="<?= $url; ?>habboo/comment-jouer">Comment jouer</a> 
                     </li>
                     <li>
-                        <a <?php if($pageid == '9') echo'class="active"' ?> href="<?= $url; ?>habboo/habboo-way">Habboo Attitude</a> 
+                        <a <?php if($pageid == '9') echo'class="active"' ?> href="<?= $url; ?>habboo/habboo-attitude">Habboo Attitude</a> 
                     </li>   
                     <li>
-                        <a <?php if($pageid == '10') echo'class="active"' ?> href="<?= $url; ?>habboo/safety">Sécurité</a> 
+                        <a <?php if($pageid == '10') echo'class="active"' ?> href="<?= $url; ?>habboo/securite">Sécurité</a> 
                     </li> 
                     <li>
-                        <a <?php if($pageid == '11') echo'class="active"' ?> href="<?= $url; ?>habboo/help">Aide</a> 
+                        <a <?php if($pageid == '11') echo'class="active"' ?> href="<?= $url; ?>habboo/aide">Aide</a> 
                     </li>                                                          
                 </ul>
             <?php } ?>            
