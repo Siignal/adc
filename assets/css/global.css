@@ -163,6 +163,21 @@ body{
   margin: auto;
 }
 
+.photos__header__image{
+  background:url(../img/teaser_stories_channels.png) center center no-repeat;
+  height: 295px;
+  width: 243px;
+  margin-top: 1rem;
+}
+
+.photos__header__title{
+  margin-top: -11rem;
+  margin-left: 17rem;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #000;
+  text-transform: uppercase;
+}
+
 .user--menu{
   padding: 0 12px;
   position: absolute;
@@ -266,6 +281,7 @@ body{
   cursor: pointer;
   text-decoration: none;
   font-size: 14px;
+  display: inline;
 }
 
 .news__title{
@@ -310,17 +326,4 @@ body{
     font-size: 20px;
     text-transform: uppercase;
     color: white;
-}
-
-footer{
-    width: 100%;
-    height: 100px;
-    clear: both;
-    display: block;
-    padding: 12px 0;
-    position: absolute;
-    bottom: 0;
-    color: #FFFFFF;
-    background-color: #292b2c;
-    background-repeat: repeat-x;
 }
