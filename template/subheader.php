@@ -16,19 +16,19 @@
         <div id="content">
             <ul>
                 <li class="active" >
-                    <a href="me"><i class="fa fa-home" aria-hidden="true"></i> Accueil</a>
+                    <a href="http://localhost/habbo/"><i class="fa fa-home" aria-hidden="true"></i> Accueil</a>
                 </li>
                 <li>
-                    <a href="community"><i class="fa fa-users" aria-hidden="true"></i> Communauté</a>
+                    <a href="http://localhost/habbo/communaute/photos"><i class="fa fa-users" aria-hidden="true"></i> Communauté</a>
                 </li>
                 <li>
-                    <a href="shop"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Habboo Shopping</a>
+                    <a href="http://localhost/habbo/boutique"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Habboo Shopping</a>
                 </li>
                 <li>
-                    <a href="habboo"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Les clés du jeu</a>
+                    <a href="http://localhost/habbo/?"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Les clés du jeu</a>
                 </li>
                 <li>
-                    <a href="admin/"  target="_blank"><i class="fa fa-cog" aria-hidden="true"></i> Administration</a>
+                    <a href="http://localhost/habbo/administration/"  target="_blank"><i class="fa fa-cog" aria-hidden="true"></i> Administration</a>
                 </li>
             </ul>
         </div>
@@ -37,10 +37,10 @@
         <div id="subnav" class="navigation">
             <ul>
                 <li>
-                    <a class="active" href="me">Quoi de neuf?</a>
+                    <a class="active" href="http://localhost/habbo/">Quoi de neuf?</a>
                 </li>
                 <li>
-                    <a  href="home">Messages privés</a> 
+                    <a  href="http://localhost/habbo/messagerie">Messages privés</a> 
                 </li>
             </ul>
         </div>
