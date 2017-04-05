@@ -217,6 +217,67 @@ body{
   height: 18rem;
 }
 
+#sub--article__l{
+  float: left;
+  width: 50%;
+}
+
+#sub--article__r{
+  float: right;
+  width: 50%;
+}
+
+#mini--article{
+  height: 7rem;
+  width: 8rem;
+  margin-top: 2rem;
+  background-position: 13rem -4rem;
+  box-shadow: 3px 3px rgba(0,0,0,.3);
+}
+
+#mini--infos{
+  margin-left: 9rem;
+  width: 11rem;
+  height: 8rem;
+}
+
+.news__lien{
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.news__date{
+  display: inline;
+  font-size: 11px;
+  line-height: 1.4;
+  color: #999;
+  font-style: italic;
+}
+
+.news__date:not(:last-child):after{
+  content: ' | ';
+  font-style: normal;
+}
+
+.news__tags{
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.news__title{
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-size: 22px;
+}
+
+.news__summary{
+  font-size: 14px;
+}
+
 #habbo--profile{
     margin-top: 2rem;
     height: 14rem;
