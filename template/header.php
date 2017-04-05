@@ -10,7 +10,7 @@
         <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
         <!-- StyleSheets -->
         <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
-        <link rel="stylesheet" href="http://localhost/habbo/assets/css/global.css">
+        <link rel="stylesheet" href="<?= $assets; ?>css/global.css">
     </head>
     <body>
     <?php require('subheader.php'); ?>
