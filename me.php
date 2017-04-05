@@ -10,21 +10,21 @@ $pageid = "1"; ?>
 		<div id='sub--article__l'>
 			<div id='mini--article' style="background-image:url(https://images.habbo.com/web_images/habbo-web-articles/lpromo_easter17_gen2.png)">
 				<div id='mini--infos'>
-					<a href='' class='news__lien'><h3>Test</h3></a>
+					<a href='' class='news__lien'><h3 style="margin-bottom: 0rem;">Test</h3></a>
 					<time class='news__date'>5 Avr. 2017</time><p class='news__tags'>Updates</p>
 					<p class='news__summary'>Description</p>
 				</div>
 			</div>
 			<div id='mini--article' style="background-image:url(https://images.habbo.com/web_images/habbo-web-articles/lpromo_easter17_gen2.png)">
 				<div id='mini--infos'>
-					<a href='' class='news__lien'><h3>Test</h3></a>
+					<a href='' class='news__lien'><h3 style="margin-bottom: 0rem;">Test</h3></a>
 					<time class='news__date'>5 Avr. 2017</time><p class='news__tags'>Updates</p>
 					<p class='news__summary'>Description</p>
 				</div>
 			</div>
 			<div id='mini--article' style="background-image:url(https://images.habbo.com/web_images/habbo-web-articles/lpromo_easter17_gen2.png)">
 				<div id='mini--infos'>
-					<a href='' class='news__lien'><h3>Test</h3></a>
+					<a href='' class='news__lien'><h3 style="margin-bottom: 0rem;">Test</h3></a>
 					<time class='news__date'>5 Avr. 2017</time><p class='news__tags'>Updates</p>
 					<p class='news__summary'>Description</p>
 				</div>
@@ -33,21 +33,21 @@ $pageid = "1"; ?>
 		<div id='sub--article__r'>
 			<div id='mini--article' style="background-image:url(https://images.habbo.com/web_images/habbo-web-articles/lpromo_easter17_gen2.png)">
 				<div id='mini--infos'>
-					<a href='' class='news__lien'><h3>Test</h3></a>
+					<a href='' class='news__lien'><h3 style="margin-bottom: 0rem;">Test</h3></a>
 					<time class='news__date'>5 Avr. 2017</time><p class='news__tags'>Updates</p>
 					<p class='news__summary'>Description</p>
 				</div>
 			</div>
 			<div id='mini--article' style="background-image:url(https://images.habbo.com/web_images/habbo-web-articles/lpromo_easter17_gen2.png)">
 				<div id='mini--infos'>
-					<a href='' class='news__lien'><h3>Test</h3></a>
+					<a href='' class='news__lien'><h3 style="margin-bottom: 0rem;">Test</h3></a>
 					<time class='news__date'>5 Avr. 2017</time><p class='news__tags'>Updates</p>
 					<p class='news__summary'>Description</p>
 				</div>
 			</div>
 			<div id='mini--article' style="background-image:url(https://images.habbo.com/web_images/habbo-web-articles/lpromo_easter17_gen2.png)">
 				<div id='mini--infos'>
-					<a href='' class='news__lien'><h3>Test</h3></a>
+					<a href='' class='news__lien'><h3 style="margin-bottom: 0rem;">Test</h3></a>
 					<time class='news__date'>5 Avr. 2017</time><p class='news__tags'>Updates</p>
 					<p class='news__summary'>Description</p>
 				</div>
