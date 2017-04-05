@@ -1,3 +1,26 @@
+Options +FollowSymlinks
+RewriteRule	^$	me.php	
+RewriteRule	^messagerie$	messaging.php	
+RewriteRule	^communaute/photos$	photos.php	[L]
+RewriteRule	^communaute/apparts$	rooms.php	
+RewriteRule	^communaute/fansites$	fansites.php	
+RewriteRule	^communaute/categories/1$	news__total.php	
+RewriteRule	^communaute/categories/campagnes-activites/1$	news__cmpg.php	
+RewriteRule	^communaute/categories/credit-promo/1$	news__spec.php	
+RewriteRule	^communaute/categories/fansites/1$	news__fan.php	
+RewriteRule	^communaute/categories/securite/1$	news__secu.php	
+RewriteRule	^communaute/categories/updates/1$	news__updates.php	
+RewriteRule	^communaute/categories/baw/1$	news__baw.php	
+RewriteRule	^communaute/categories/ambassadeurs/1$	news__amba.php
+RewriteRule	^habboo$	habboo.php
+RewriteRule	^habboo/comment-jouer$	play.php
+RewriteRule	^habboo/habboo-attitude$	way.php
+RewriteRule	^habboo/securite$	safety.php
+RewriteRule	^habboo/aide$	help.php
+RewriteRule	^communaute/staffs$	staffs.php
+
 RewriteEngine on 
-RewriteCond %{REQUEST_FILENAME}.php -f 
-RewriteRule ^(.*)$ $1.php [L]
+RewriteRule	^boutique$	boutique.php	
+RewriteRule	^boutique/abonnements$	abonnement.php	
+RewriteRule	^boutique/prepaye$	prepaid.php	
+RewriteRule	^boutique/historique$	history.php
