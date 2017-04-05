@@ -6,8 +6,8 @@
         <meta name="author" content="<?= $developpeurs; ?>" />
         <title><?= $pagename; ?> - <?= $site; ?></title>
         <!-- Favicon -->
-        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="<?= $assets; ?>img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="<?= $assets; ?>img/favicon.ico" type="image/x-icon">
         <!-- StyleSheets -->
         <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
         <link rel="stylesheet" href="<?= $assets; ?>css/global.css">

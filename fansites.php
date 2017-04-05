@@ -1,4 +1,5 @@
-<?php $pagename = 'Fansites'; ?>
+<?php $pagename = 'Fansites'; 
+$pageid = '5'; ?>
 <?php include('template/header.php'); ?>
 
 <div id='content'>

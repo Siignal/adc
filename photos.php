@@ -1,4 +1,6 @@
-<?php $pagename = 'Photos'; ?>
+<?php $pagename = 'Photos'; 
+$pageid = '3';
+?>
 <?php include('template/header.php'); ?>
 
 <div id='content'>
