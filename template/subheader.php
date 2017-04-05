@@ -18,7 +18,7 @@
                 <li <?php if($pageid == '1' or $pageid == '2') echo'class="active"' ?> >
                     <a href="<?= $url; ?>"><i class="fa fa-home" aria-hidden="true"></i> Accueil</a>
                 </li>
-                <li <?php if($pageid == '3' or $pageid == '4' or $pageid == '5' or $pageid == '6') echo'class="active"' ?>>
+                <li <?php if($pageid == '3' or $pageid == '4' or $pageid == '5' or $pageid == '6' or $pageid == '12') echo'class="active"' ?>>
                     <a href="<?= $url; ?>communaute/photos"><i class="fa fa-users" aria-hidden="true"></i> Communauté</a>
                 </li>
                 <li>
@@ -45,11 +45,14 @@
                     </li>
                 </ul>
             <?php } ?>
-            <?php if($pageid == '3' or $pageid == '4' or $pageid == '5' or $pageid == '6'){ ?>
+            <?php if($pageid == '3' or $pageid == '4' or $pageid == '5' or $pageid == '6' or $pageid == '12'){ ?>
                 <ul>
                     <li>
                         <a <?php if($pageid == '3') echo'class="active"' ?> href="<?= $url; ?>communaute/photos">Photos</a>
                     </li>
+                     <li>
+                        <a <?php if($pageid == '12') echo'class="active"' ?> href="<?= $url; ?>communaute/staffs">Équipe</a>
+                    </li>                   
                     <li>
                         <a <?php if($pageid == '4') echo'class="active"' ?> href="<?= $url; ?>communaute/apparts">Apparts</a> 
                     </li>
