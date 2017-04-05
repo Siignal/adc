@@ -1,4 +1,4 @@
-<?php require ('./configuration/core.php'); ?>
+<?php require('./configuration/core.php'); ?>
 <!DOCTYPE html>
 <html lang="fr">
     <head>
