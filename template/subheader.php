@@ -16,19 +16,19 @@
         <div id="content">
             <ul>
                 <li class="active" >
-                    <a href="http://localhost/habbo/"><i class="fa fa-home" aria-hidden="true"></i> Accueil</a>
+                    <a href="<?= $url; ?>"><i class="fa fa-home" aria-hidden="true"></i> Accueil</a>
                 </li>
                 <li>
-                    <a href="http://localhost/habbo/communaute/photos"><i class="fa fa-users" aria-hidden="true"></i> Communauté</a>
+                    <a href="<?= $url; ?>communaute/photos"><i class="fa fa-users" aria-hidden="true"></i> Communauté</a>
                 </li>
                 <li>
-                    <a href="http://localhost/habbo/boutique"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Habboo Shopping</a>
+                    <a href="<?= $url; ?>boutique"><i class="fa fa-shopping-basket" aria-hidden="true"></i> Habboo Shopping</a>
                 </li>
                 <li>
-                    <a href="http://localhost/habbo/?"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Les clés du jeu</a>
+                    <a href="<?= $url; ?>?"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Les clés du jeu</a>
                 </li>
                 <li>
-                    <a href="http://localhost/habbo/administration/"  target="_blank"><i class="fa fa-cog" aria-hidden="true"></i> Administration</a>
+                    <a href="<?= $url; ?>administration/"  target="_blank"><i class="fa fa-cog" aria-hidden="true"></i> Administration</a>
                 </li>
             </ul>
         </div>
@@ -37,10 +37,10 @@
         <div id="subnav" class="navigation">
             <ul>
                 <li>
-                    <a class="active" href="http://localhost/habbo/">Quoi de neuf?</a>
+                    <a class="active" href="<?= $url; ?>">Quoi de neuf?</a>
                 </li>
                 <li>
-                    <a  href="http://localhost/habbo/messagerie">Messages privés</a> 
+                    <a  href="<?= $url; ?>messagerie">Messages privés</a> 
                 </li>
             </ul>
         </div>
