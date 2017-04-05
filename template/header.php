@@ -3,7 +3,7 @@
 <html lang="fr">
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="author" content="Siignal" />
+        <meta name="author" content="<?= $developpeurs; ?>" />
         <title><?= $pagename; ?> - <?= $site; ?></title>
         <!-- Favicon -->
         <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
