@@ -1,7 +1,15 @@
 Options +FollowSymlinks
 RewriteRule	^$	me.php	
-RewriteRule	^messagerie$	messaging.php	
-RewriteRule	^communaute/photos$	photos.php	[L]
+RewriteRule	^messagerie$	messaging.php
+RewriteRule	^historique$	historique.php
+RewriteRule	^profile$	profile.php
+RewriteRule ^parametres/privee$ confidentialite.php	
+RewriteRule ^parametres/securite$ compte.php	
+RewriteRule ^parametres/password$ mdp.php	
+RewriteRule ^parametres/email$ mail.php	
+RewriteRule ^parametres/avatars$ avatars.php	
+RewriteRule ^parametres/historique$ historique.php	
+RewriteRule	^communaute/photos$	photos.php
 RewriteRule	^communaute/apparts$	rooms.php	
 RewriteRule	^communaute/fansites$	fansites.php	
 RewriteRule	^communaute/categories/1$	news__total.php	
@@ -18,10 +26,9 @@ RewriteRule	^habboo/habboo-attitude$	way.php
 RewriteRule	^habboo/securite$	safety.php
 RewriteRule	^habboo/aide$	help.php
 RewriteRule	^communaute/staffs$	staffs.php
-
 RewriteEngine on 
 RewriteRule	^boutique$	boutique.php	
 RewriteRule	^boutique/abonnements$	abonnement.php	
 RewriteRule	^boutique/packs$	packs.php	
 RewriteRule	^boutique/badges$	badges.php	
-RewriteRule	^boutique/extra$	extra.php	
+RewriteRule	^boutique/extra$	extra.php
