@@ -571,3 +571,9 @@ border-radius:0px;
 -moz-border-radius:0px;
 -webkit-border-radius:0px;
 }
+
+hr{
+  background: no-repeat;
+  border: none;
+  border-top: dashed 2px #B6D0ED;
+}
