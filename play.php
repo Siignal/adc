@@ -1,5 +1,5 @@
 <?php $pagename = 'Comment jouer'; 
-$pageid = '8'; ?>
+$pageid = '15'; ?>
 <?php include('template/header.php'); ?>
 
 <div id='content'>

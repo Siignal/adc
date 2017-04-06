@@ -1,9 +1,11 @@
-<?php $pagename = 'Boutique'; 
-$pageid = '9';?>
+<?php $pagename = 'Badges'; 
+$pageid = '10'; ?>
 <?php include('template/header.php'); ?>
 
 <div id='content'>
-	<div id='left'></div>
+	<div id='left'>
+
+	</div>
 	<div id='right'>aaaaaaaa</div>
 </div>
 

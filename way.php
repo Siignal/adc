@@ -1,5 +1,5 @@
 <?php $pagename = 'Habboo Attitude'; 
-$pageid = '9'; ?>
+$pageid = '16'; ?>
 <?php include('template/header.php'); ?>
 
 <div id='content'>

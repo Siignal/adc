@@ -1,5 +1,5 @@
 <?php $pagename = 'Sécurité'; 
-$pageid = '10'; ?>
+$pageid = '17'; ?>
 <?php include('template/header.php'); ?>
 
 <div id='content'>

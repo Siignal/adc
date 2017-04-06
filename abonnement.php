@@ -1,4 +1,5 @@
-<?php $pagename = 'Abonnement'; ?>
+<?php $pagename = 'Abonnement'; 
+$pageid = '12'; ?>
 <?php include('template/header.php'); ?>
 
 <div id='content'>

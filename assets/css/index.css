@@ -13,7 +13,7 @@ a{
 }
 
 header{
-    height: 135px;
+    height: 25rem;
     background-color: #67BEE9;
     position: relative;
     background-position: 0;
@@ -26,75 +26,38 @@ header h1.logo{
   height: 78px;
   float: left;
   width: 145px;
-  margin-top:-7rem;
+  margin-top:-4rem;
   background-image: url(../img/logo.png);
   position:relative;
   z-index:2;
 }
-
-.hotel-button:before{
-    border-width: 21px;
-    top: -2px;
-    border-color: transparent transparent transparent #ffea00;
-    right: -43px;
-}
-.hotel-button:after{
-  border-width: 19px;
-    top: 0;
-    border-color: transparent transparent transparent #ffb900;
-    right: -38px;
-}
-.hotel-button__text{
-      position: relative;
-    padding-right: 27px;
-    text-align: right;
-    line-height: 26px;
-}
-.hotel-button__text:before{
-    background-image: url(https://images.habbo.com/habbo-web/america/de/assets/images/sprite.fd8a8fba.png);
-    background-position: -415px -387px;
-    width: 21px;
-    height: 26px;
-    content: '';
-    display: block;
-    margin-top: -13px;
-    position: absolute;
-    top: 50%;
-    right: 0;
-}
-
 .hotel{
   background-image: url(../img/hotel.png);
   background-repeat: no-repeat;
-  height: 8.4rem;
-  width: 47rem;
+  height: 25rem;
+  width: 62rem;
   opacity: 0.5;
   margin-left: -22rem;
-  position: relative;
-  z-index: 2;
 }
-
 nav#menu{
   background-color: #fff;
   height: 55px;
   font-family:'Avenir LT Std 85 Heavy';
   clear: both;
   position: relative;
+  top: -2.5rem;
 }
-
 nav#menu ul{
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 nav#menu ul li{
   display: inline-block;
   height: 55px;
   padding: 0 20px 0 20px;
   float: left;
 }
-
 nav#menu ul li a{
   color: #292b2c;
   text-decoration: none;
@@ -102,70 +65,9 @@ nav#menu ul li a{
   line-height: 55px;
   font-weight: 400;
 }
-
-nav#menu ul li.active a{
-  color: #fff;
-}
-
-nav#menu ul li.active{
-  background-color: #292b2c;
-}
-
-nav#menu ul li.me{
-  height: 55px;
-    background-position: 8px -14px;
-}
-
-#subnav{
-  font-family:'Avenir LT Std 85 Heavy';
-  background-color: #292b2c;
-  height: 30px;
-  border-radius:0 0 5px 5px;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.9);
-}
-
-#subnav ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#subnav ul li{
-  padding: 0 20px 0 20px;
-  display: inline-block;
-  float: left;
-}
-
 .clear{
   clear: both;
 }
-
-#subnav ul li a{
-  color: #949595;
-  line-height: 30px;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-#subnav ul li a.active{
-  color: #fff;
-}
-
-#subnav ul li:after{
-    content: '|';
-    padding-left: 40px;
-    color: #444;
-    font-size: 12px;
-}
-
-#subnav ul li:after:last-child{
-  content: '';
-}
-
-.clear{
-  clear: both;
-}
-
 body{
   background-color:#E6E7E7;
   background-repeat: repeat;
@@ -199,47 +101,62 @@ body{
   margin: auto;
 }
 
+#connexion--space{
+  width: 100%;
+  height: 6rem;
+  background-color: rgba(0,0,0,.6);
+  position: fixed;
+  z-index: 4;
+}
+
+#input--co{
+      border-style: none;
+    background-color: #ccd8df;
+    border: 3px solid #67bee9;
+    border-radius: 5px;
+    color: #444;
+    box-shadow: inset 0 2px 0 0 #9ebecc;
+    line-height: 1.2;
+    padding: 5px 12px;
+    width: 90%;
+    font-size: 16px;
+}
+
+.form__fieldset{
+  border:none;
+}
+
+.form__style{
+  display:inline-flex;
+  margin-top:0.5rem;
+}
+
+.form__style::after{
+    border-left: 1px solid #67bee9;
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: -2px;
+    top: 0.5rem;
+}
+
+.login-form__button{
+  background-color: #67bee9;
+    border-radius: 4px;
+    width: 8rem;
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 4px 4px rgba(0,0,0,.3);
+}
+
 .photos__header__image{
   background:url(../img/teaser_stories_channels.png) center center no-repeat;
   height: 295px;
   width: 243px;
   margin-top: 1rem;
-}
-
-.hotel-button{
-        line-height: 1.2;
-    text-align: center;
-    background-color: #ffb900;
-    border-color: #ffea00;
-    color: #000;
-    border-radius: 5px 5px 5px 5px;
-    border-width: 2px 2px 2px 2px;
-    border-style: solid;
-    margin-bottom: 4px;
-    text-transform: uppercase;
-    filter: drop-shadow(-1px 4px 0px rgba(0, 0, 0, .3));
-    box-shadow: none;
-    position: relative;
-    margin-right: 20px;
-    margin-top: -3px;
-    padding: 6px 12px 6px 7px;
-}
-
-.hotel-button:hover{
-    background-color: #ffd400;
-    border-color: #fffd70;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-}
-
-.hotel-button:active{
-    transform: translate(0,2px);
-    filter: drop-shadow(-1px 2px 0 rgba(0, 0, 0, .3));
-    box-shadow: none;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    background-color: #f89400;
-    border-color: #ffce37;
 }
 
 .photos__header__title{
@@ -248,33 +165,6 @@ body{
   padding-bottom: 12px;
   border-bottom: 1px solid #000;
   text-transform: uppercase;
-}
-
-.user--menu{
-  padding: 0 12px;
-  position: absolute;
-  margin-top: -5rem;
-  width: 19%;
-  z-index: 600;
-  right: 2rem;
-}
-
-#user--wrapper{
-  background: #02353c;
-  font-size: 16px;
-  box-shadow: 0 1px 0 2px rgba(0,0,0,.3);
-  border: 2px solid #267b91;
-  border-radius: 3px;
-  padding: 5px 39px 5px 12px;
-}
-
-.user--login{
-  padding: 0 12px;
-  position: absolute;
-  margin-top: -11rem;
-  width: 21%;
-  z-index: 201;
-  right: 2rem;
 }
 
 /** MODAL **/
@@ -338,53 +228,6 @@ img.btn_close {
 }
 /** **/
 
-.login--wrapper{
-  background: #02353c;
-  font-size: 16px;
-  cursor: pointer;
-  box-shadow: 0 1px 0 2px rgba(0,0,0,.3);
-  border: 2px solid #267b91;
-  border-radius: 3px;
-  padding: 5px 39px 5px 12px;
-}
-
-.login{
-  padding: 3px;
-  text-transform: uppercase;
-  color: white;
-  font-size: 14px;
-}
-
-.user--name{
-  position: relative;
-  padding-left: 24px;
-  line-height: 22px;
-  display: block;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  text-align: right;
-  text-transform: none;
-  color: #FFFFFF;
-  font-family: 'Avenir LT Std 85 Heavy';
-}
-
-.user--habbo{
-  height: 50px;
-  width: 50px;
-  border-radius: 50px;
-  box-shadow: 0 1px 0 2px rgba(0,0,0,.3);
-  border: 2px solid #267b91;
-  background: #02353c;
-  margin-top: -3rem;
-  margin-left: 9rem;
-}
-
-.user--avatar{
-  margin-top: -0.4rem;
-  margin-left: -0.1rem;
-}
-
 #article {
   box-shadow: 3px 3px rgba(0,0,0,.3);
   background-position: -6rem;
@@ -407,27 +250,6 @@ img.btn_close {
   margin-top: 2rem;
   background-position: 13rem -4rem;
   box-shadow: 3px 3px rgba(0,0,0,.3);
-}
-
-#mini--room{
-  height: 7rem;
-  width: 7rem;
-  margin-top: 7rem;
-  box-shadow: 3px 3px rgba(0,0,0,.3);
-}
-
-.room--proprio{
-  height:50px;
-  width:50px;
-  margin-top: 1rem;
-  border: 1px solid #444;
-  background-color: white;
-  border-radius: 50px;
-}
-
-.proprio--name{
-  margin-top: -2.3rem;
-  margin-left: 4rem;
 }
 
 #mini--infos{
@@ -517,40 +339,6 @@ img.btn_close {
   margin-top: 2rem;
 }
 
-#habbo--profile{
-    margin-top: 2rem;
-    height: 14rem;
-    background-color: grey;
-    padding-left: 3rem;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    z-index: 4;
-    position: relative;
-    overflow: hidden;
-}
-
-#profile--avatar{
-    height: 90px;
-    margin-left: 4rem;
-    margin-top: 3.5rem;
-    width: 90px;
-    border-radius: 50px;
-    background-color: white;
-    overflow: hidden;
-}
-
-#habbo--go{
-    width: 100%;
-    height: 3rem;
-    border-style: none;
-    background-color: green;
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: white;
-}
-
 ::-webkit-scrollbar
 {
 width:5px;
@@ -575,56 +363,4 @@ width:7px;
 border-radius:0px;
 -moz-border-radius:0px;
 -webkit-border-radius:0px;
-}
-
-hr{
-  background: no-repeat;
-  border: none;
-  border-top: dashed 2px #444;
-}
-#user--style{
-      color: white;
-    margin-top: 0.1rem;
-    float: left;
-    margin-left: 7rem;
-    z-index: 600;
-    position: relative;
-}
-.user--lien{
-  list-style: none;
-  color: white;
-}
-.subMenu {
-    width: 13.7rem;
-    margin-right: -14rem;
-    list-style: none;
-    position: absolute;
-    z-index: 60;
-    background-color: rgba(0,0,0,.9);
-    border-radius: 10px;
-    margin-left: 5.3rem;
-    padding: 10px;
-    margin-top: -2rem;
-}
-ul.subMenu a {
-        background: none;
-    padding: 3px 20px;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-.toggleSubMenu{
-  position: relative;
-  list-style: none;
-  margin-right: 12rem;
-  margin-top: -4.5rem;
-  float: right;
-}
-.fans__deco{
-  background-image:url(https://images.habbo.com/c_images/Fansites/habbo_friends.png);
-    height: 12rem;
-    background-repeat: no-repeat;
-    float: right;
-    width: 15rem;
-    margin-top: -5rem;
 }
