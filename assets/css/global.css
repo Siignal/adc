@@ -27,6 +27,37 @@ header h1.logo{
   z-index:2;
 }
 
+.hotel-button:before{
+    border-width: 21px;
+    top: -2px;
+    border-color: transparent transparent transparent #ffea00;
+    right: -43px;
+}
+.hotel-button:after{
+  border-width: 19px;
+    top: 0;
+    border-color: transparent transparent transparent #ffb900;
+    right: -38px;
+}
+.hotel-button__text{
+      position: relative;
+    padding-right: 27px;
+    text-align: right;
+    line-height: 26px;
+}
+.hotel-button__text:before{
+    background-image: url(https://images.habbo.com/habbo-web/america/de/assets/images/sprite.fd8a8fba.png);
+    background-position: -415px -387px;
+    width: 21px;
+    height: 26px;
+    content: '';
+    display: block;
+    margin-top: -13px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
 .hotel{
   background-image: url(../img/hotel.png);
   background-repeat: no-repeat;
@@ -168,6 +199,42 @@ body{
   height: 295px;
   width: 243px;
   margin-top: 1rem;
+}
+
+.hotel-button{
+        line-height: 1.2;
+    text-align: center;
+    background-color: #ffb900;
+    border-color: #ffea00;
+    color: #000;
+    border-radius: 5px 5px 5px 5px;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+    filter: drop-shadow(-1px 4px 0px rgba(0, 0, 0, .3));
+    box-shadow: none;
+    position: relative;
+    margin-right: 20px;
+    margin-top: -3px;
+    padding: 6px 12px 6px 7px;
+}
+
+.hotel-button:hover{
+    background-color: #ffd400;
+    border-color: #fffd70;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}
+
+.hotel-button:active{
+    transform: translate(0,2px);
+    filter: drop-shadow(-1px 2px 0 rgba(0, 0, 0, .3));
+    box-shadow: none;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    background-color: #f89400;
+    border-color: #ffce37;
 }
 
 .photos__header__title{

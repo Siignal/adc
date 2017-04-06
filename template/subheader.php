@@ -41,8 +41,12 @@
                     <a href="<?= $url; ?>habboo"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Les clés du jeu</a>
                 </li>
                 <li>
-                    <a href="<?= $url; ?>administration/"  target="_blank"><i class="fa fa-cog" aria-hidden="true"></i> Administration</a>
-                </li>
+                    <a href="<?= $url; ?>hotel" class="hotel-button" target="_blank">
+                        <span class="hotel-buton__text" style="font-size: 16px;">
+                            Jouer à <?= $site; ?>                 
+                        </span>
+                    </a>
+                </ul>
             </ul>
         </div>
     </nav>  
