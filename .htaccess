@@ -22,5 +22,6 @@ RewriteRule	^communaute/staffs$	staffs.php
 RewriteEngine on 
 RewriteRule	^boutique$	boutique.php	
 RewriteRule	^boutique/abonnements$	abonnement.php	
-RewriteRule	^boutique/prepaye$	prepaid.php	
-RewriteRule	^boutique/historique$	history.php
+RewriteRule	^boutique/packs$	packs.php	
+RewriteRule	^boutique/badges$	badges.php	
+RewriteRule	^boutique/extra$	extra.php	
