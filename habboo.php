@@ -17,14 +17,20 @@ $pageid = '7'; ?>
 		   	<p>La créativité et l'originalité sont les bienvenues sur <?= $site; ?>! Chaque semaine, nous avons de supers compétitions que tu peux rejoindre. Des constructions d'apparts aux selfies, des vidéos style pixel-art et compétitions d'écriture - une tonne de trucs cools t'attendent pour laisser libre-court à ton élan artistique et gagner quelques winwin + prix! Tu es prêt? Consulte les news ur avoir plus d'infos sur la compétition du moment!</p>
 
 		   	<h1>JOUE GRATUITEMENT, POUR TOUJOURS.</h1>
-		   	<p><?= $site; ?> est un jeu gratuit en ligne donc tu peux explorer un vaste monde de salles, quêtes, discuter et gagner des prix, sans jamais avoir à payer!</p>
+		   	<p><?= $site; ?> est un jeu gratuit en ligne donc tu peux explorer un vaste monde de salles, quêtes, discuter et gagner des prix, sans jamais avoir à payer!</p><img style="float:right;padding:10px;" src="assets/img/ill_17.png" />
 			<p>Certains «extras» dans le jeu comme des mobiliers rares, des badges ainsi que l'adhésion au VIP Club peuvent être acheté avec des diamants Pour plus d'informations sur les suppléments dans le jeu, consulter <?= $site; ?> Shopping.</p>
 
-			<h1>TOUJOURS LÀ POUR AIDER…</h1><img style="float:right;padding:10px;" src="assets/img/ill_17.png" />
+			<h1>TOUJOURS LÀ POUR AIDER…</h1><img style="float:right;padding:10px;" src="assets/img/ill_14.png" />
+
 			<p><?= $site; ?> est surveillé à longueur de journée par notre équipe de modération. Tu peux aussi faire beaucoup de choses pour rester en sécurité. Consulte les <a href="habboo/securite">Conseils de sécurité</a> pour savoir quoi faire.</p>
 			<p>Une équipe de guide est aussi régulièrement présente partout dans l'hôtel pour répondre à tes questions.</p>
-
-
+			<h1>REJOINS HABBOO</h1>
+			<p>Rejoins la plus grande communauté virtuelle en ligne pour adolescents.</p>
+			                    <a href="<?= $url; ?>hotel" class="hotel-button" style="text-decoration:none;" target="_blank">
+                        <span class="hotel-buton__text" style="font-size: 16px;">
+                            Rejoins <?= $site; ?> maintenant !                
+                        </span>
+                    </a>
 
 
 
