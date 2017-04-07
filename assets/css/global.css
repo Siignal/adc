@@ -621,10 +621,147 @@ ul.subMenu a {
   float: right;
 }
 .fans__deco{
-  background-image:url(https://images.habbo.com/c_images/Fansites/habbo_friends.png);
+  background-image:url(../img/habbo_friends.png);
     height: 12rem;
     background-repeat: no-repeat;
     float: right;
     width: 15rem;
     margin-top: -5rem;
+}
+
+.badge{
+  display: inline-block;
+  width:120px;
+  height:140px;
+  margin-right:5px;
+}
+
+.box__badge{
+  margin-top:20px;
+  width:auto;
+  height:140px;
+  background-image: url(../img/shopbadge.png);
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.9);  
+}
+
+.shop__badge{
+  margin-top:35px;
+  margin-left:40px;
+}
+
+.shop__glass{
+  width:78px;
+  height:89px;
+  position:absolute;
+  margin-left:21px;
+  margin-top:-72px;
+  background: url(../img/badge_glass.png);"
+}
+
+.shop__btn{
+  width:auto;
+  padding:10px;
+  color:white;
+  background-color: #6C9C14;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  margin-top:-2px;
+}
+
+.pack{
+  width:196px;
+  display: inline-block;
+  height:auto;
+  margin-top:20px;
+  margin-right:17px;
+}
+
+.pack__ortitle{
+  background-color: #D5A209;
+  border-radius: 5px 5px 0 0;
+  padding:10px;
+  color:white;
+  text-align: center;
+}
+
+.pack__orcontent{
+  border-radius: 0 0 5px 5px;
+  background-color: white;
+  padding:5px;
+  box-shadow: 3px rgba(0, 0, 0, 0.9);
+}
+
+ol li.duckets{
+  list-style-image: url(../img/duckets.png);
+}
+
+ol li.respects{
+  list-style-image: url(../img/respects.png);
+}
+
+ol li.winwins{
+  list-style-image: url(../img/winwins.png);
+}
+
+.pack__orbtn{
+  padding:10px;
+  color:white;
+  background-color: #D5A209;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.pack__argenttitle{
+  background-color: #999999;
+  border-radius: 5px 5px 0 0;
+  padding:10px;
+  color:white;
+  text-align: center;
+}
+
+.pack__argentcontent{
+  border-radius: 0 0 5px 5px;
+  background-color: white;
+  padding:5px;
+}
+
+.pack__argentbtn{
+  padding:10px;
+  color:white;
+  background-color: #999999;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.pack__bronzetitle{
+  background-color: #905413;
+  border-radius: 5px 5px 0 0;
+  padding:10px;
+  color:white;
+  text-align: center;
+}
+
+.pack__bronzecontent{
+  border-radius: 0 0 5px 5px;
+  background-color: white;
+  padding:5px;
+}
+
+.pack__bronzebtn{
+  padding:10px;
+  color:white;
+  background-color: #905413;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.pack__badge{
+  border-radius:5px;
+  background: rgba(0, 0, 0, 0.2);
+  padding:10px;
 }
