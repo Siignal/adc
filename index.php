@@ -13,8 +13,35 @@ $pageid = '19'; ?>
         <!-- StyleSheets -->
         <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
         <link rel="stylesheet" href="<?= $assets; ?>css/index.css">
+        <script src="http://code.jquery.com/jquery-1.9.0b1.js"></script>
+        <script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 2000);
+}
+
+function showPage() {
+  document.getElementById("spin").style.display = "none";
+  document.getElementById("loader-habbo").style.display = "block";
+}
+</script>
     </head>
-    <body>
+    <body onload="myFunction()" style="margin:0;">
+    <div id='content'>
+        <div id='spin' style='width:100%;height:100vh;'>
+            <div id='logo' style='top:40%;left:48%;position:absolute;margin:-35px 0 0 -35px;height: 78px;
+  float: left;
+  width: 145px;
+  margin-top:-4rem;
+  background-image: url(./assets/img/logo.png);
+  background-repeat:no-repeat;
+  position:relative;
+  z-index:1;'></div>
+            <div id='loader'></div>
+            </div>
+        </div>
+        <div style='display:none;' id='loader-habbo' class='animate-bottom'>
     <?php require('./template/indexheader.php'); ?>
     <div id='content'>
         <div id='left'>
@@ -69,5 +96,6 @@ $pageid = '19'; ?>
         </div>
         </div>
             <div id='right'>aaaaaaaa</div>
+    </div>
     </div>
     <?php require('template/footer.php'); ?>
