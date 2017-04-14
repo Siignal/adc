@@ -56,3 +56,4 @@ $pageid = "1"; ?>
 	</div>
 	<div id='right'>aaaaaaaa</div>
 </div>
+<?php include('template/footer.php'); ?>
