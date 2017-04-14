@@ -137,16 +137,16 @@
                         <a <?php if($pageid == '22') echo'class="active"' ?> href="<?= $url; ?>parametres/privee">Confidentialité</a>
                     </li>
                     <li>
-                        <a <?php if($pageid == '23') echo'class="active"' ?> href="<?= $url; ?>prametres/securite">Protection du compte</a> 
+                        <a <?php if($pageid == '23') echo'class="active"' ?> href="<?= $url; ?>parametres/securite">Protection du compte</a> 
                     </li>
                     <li>
                         <a <?php if($pageid == '24') echo'class="active"' ?> href="<?= $url; ?>parametres/password">Mot de passe</a> 
                     </li>   
                     <li>
-                        <a <?php if($pageid == '25') echo'class="active"' ?> href="<?= $url; ?>boutique/abonnements">Email</a> 
+                        <a <?php if($pageid == '25') echo'class="active"' ?> href="<?= $url; ?>parametres/email">Email</a> 
                     </li> 
                     <li>
-                        <a <?php if($pageid == '26') echo'class="active"' ?> href="<?= $url; ?>boutique/extra">Avatars</a> 
+                        <a <?php if($pageid == '26') echo'class="active"' ?> href="<?= $url; ?>parametres/avatars">Avatars</a> 
                     </li>                                                          
                 </ul>
             <?php } ?>              

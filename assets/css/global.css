@@ -765,3 +765,192 @@ ol li.winwins{
   background: rgba(0, 0, 0, 0.2);
   padding:10px;
 }
+
+#new-avatar{
+  background-color:rgba(0, 0, 0, .3);
+  height:6rem;
+  border-radius:4px;
+}
+
+#create--avatar{
+  display:inline-flex;
+  padding:1rem;
+}
+
+.avatar--create__img{
+  background-image:url(https://images.habbo.com/habbo-web/america/en/assets/images/sprite.fd8a8fba.png);
+  background-position:-199px -100px;
+  width: 54px;
+  height: 61px;
+  left: 0;
+  top:0;
+}
+
+.avatar--create__plus{
+      background-image: url(https://images.habbo.com/habbo-web/america/en/assets/images/sprite.fd8a8fba.png);
+    background-position: -163px -75px;
+    width: 34px;
+    height: 36px;
+    left: 32px;
+    top: 25px;
+    margin-top:2rem;
+    margin-left:-1.3rem;
+}
+
+.avatar--create__text{
+  margin-top:1.6rem;
+  font-size:14px;
+  color:white;
+}
+
+.avatar-create__button__wrapper{
+  margin-left: 0.9rem;
+}
+
+.avatar-create__button{
+  padding: 1rem;
+    margin-top: 0.4rem;
+    border-style: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: green;
+    box-shadow: -3px 4px rgba(0,0,0,.3);
+    color: white;
+    cursor: pointer;
+}
+
+button:disabled{
+  cursor:not-allowed;
+}
+
+.disabled{
+  opacity: .4;
+}
+
+#email--verification{
+  background-color:rgba(0, 0, 0, .3);
+  height:8rem;
+  border-radius:4px;
+  padding:1rem;
+}
+
+.email__img{
+    height: 50px;
+    top: 0;
+    width: 50px;
+    box-shadow: 0 3px 0 1px rgba(0,0,0,.3);
+    background-color: #fff;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    left: 0;
+}
+
+.alerte__img{
+      background-image: url(https://images.habbo.com/habbo-web/america/en/assets/images/sprite.fd8a8fba.png);
+    background-position: -499px 0;
+    width: 10px;
+    height: 45px;
+    content: '';
+    display: block;
+    left: 0;
+    margin-left: 20px;
+    top: 2.5px;
+}
+
+.email__not{
+  margin-top: -3rem;
+  margin-left: 4rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.email--verification__text{
+  margin-left: 4rem;
+  margin-top: 0.5rem;
+  color: #444;
+  font-size: 13px;
+}
+
+.email-verification__button__wrapper{
+  margin-left: 14rem;
+  margin-top: 1rem;
+}
+
+.email-verification__button{
+      padding: 1rem;
+    color: white;
+    background-color: green;
+    border-style: none;
+    border-radius: 4px;
+    box-shadow: -3px 4px rgba(0,0,0,.3);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.new--email{
+      height: 9rem;
+    width: 24rem;
+    background-color: #a2a2a2;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-top: 2rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.label--email{
+  color:#444;
+}
+
+.save--change{
+    margin-left: 42.4%;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-transform: uppercase;
+    border-style: none;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    box-shadow: -3px 4px rgba(0,0,0,.3);
+}
+
+.input--email{
+    border-style: none;
+    background-color: #ccd8df;
+    border: 3px solid #275d8e;
+    border-radius: 5px;
+    color: #444;
+    box-shadow: inset 0 2px 0 0 #9ebecc;
+    line-height: 1.2;
+    padding: 5px 12px;
+    width: auto;
+    font-size: 16px;
+}
+
+.extra{
+  display: inline-block;
+  width:120px;
+  height:140px;
+  margin-right:5px;
+}
+
+.box__extra{
+  margin-top:20px;
+  width:auto;
+  height:140px;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.9);  
+}
+
+.shop__btnextra{
+  width:auto;
+  padding:10px;
+  color:white;
+  background-color: #6C9C14;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  margin-top:-3px;
+}
+
