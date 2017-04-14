@@ -10,10 +10,12 @@
         <link rel="icon" href="<?= $assets; ?>img/favicon.ico" type="image/x-icon">
         <!-- StyleSheets -->
         <link rel="stylesheet" href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css">
-        <link rel="stylesheet" href="<?= $assets; ?>css/global.css">
-        <script type="text/javascript" src="https://www.alsacreations.com/xmedia/tuto/exemples/accordeon/jquery-1.2.1.js"></script>
+        <link rel="stylesheet" href="<?= $assets; ?><?= version('css/global.css') ?>">
+        <script src='./assets/js/turbolinks.js' data-turbolinks-eval='false'></script>
+        <script type="text/javascript" src="./assets/js/jquery.js"></script>
     <script type="text/javascript">
     <!--
+    document.addEventListener('turbolinks:load', function() {
     $(document).ready( function () {
         // On cache les sous-menus
         // sauf celui qui porte la classe "open_at_load" :
@@ -36,7 +38,7 @@
             return false;
         });
     
-    } ) ;
+    })}) ;
     // -->
     </script>
     </head>
